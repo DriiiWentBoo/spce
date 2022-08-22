@@ -72,7 +72,7 @@ loadsettings()
 
 if _G.settings.alreadyloaded then
 	print("execut")
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DriiiWentBoo/spce/main/useless.lua"))()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DriiiWentBoo/spce/main/spcething.lua"))()
 	return
 end
 
@@ -156,7 +156,7 @@ if _G.settings.alreadyloaded == false then
 	InsertedObjects:Destroy()
 	if checkforwhitelist() then
 
-		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DriiiWentBoo/spce/main/useless.lua"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DriiiWentBoo/spce/main/spcething.lua"))()
 
 	end
 
